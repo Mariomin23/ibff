@@ -98,6 +98,6 @@ function setupNavbarScroll() {
 function setupWhatsApp() {
     const waBtn = document.getElementById('wa-btn');
     if (waBtn) {
-        waBtn.href = `https://wa.me/${SITE_DATA.brand.whatsapp}`;
+        waBtn.href = `https://wa.me/34614250687`;
     }
 }
