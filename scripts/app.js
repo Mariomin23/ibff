@@ -72,7 +72,7 @@ function renderTrainers() {
 }
 
 /**
- * --- Location Section ---
+ * --- Location Sectionn ---
  */
 function renderLocation() {
     const locationText = document.getElementById('location-text');

@@ -29,6 +29,7 @@
                     <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="#plantilla">Trainers</a></li>
                     <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trabajo">Trabaja con Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                 </ul>
             </div>
@@ -187,6 +188,57 @@
                             loading="lazy">
                         </iframe>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trabaja con Nosotros Section -->
+    <section id="trabajo">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title">Trabaja con IBF Trainers</h2>
+                    <p class="text-secondary mb-5">¿Eres trainer certificado y quieres formar parte de nuestra plantilla? Envíanos tu información.</p>
+
+                    <form class="row g-3 text-start" action="mailto:hola@tripleeme.es" method="POST" enctype="text/plain">
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small text-uppercase">Nombre</label>
+                            <input type="text" name="nombre" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small text-uppercase">Apellido</label>
+                            <input type="text" name="apellido" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small text-uppercase">Email</label>
+                            <input type="email" name="email" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small text-uppercase">Teléfono</label>
+                            <input type="tel" name="telefono" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label text-secondary small text-uppercase">Formación</label>
+                            <select name="formacion" class="form-select bg-dark border-secondary text-white py-3 rounded-0">
+                                <option value="TAFAD">TAFAD</option>
+                                <option value="TSEAS">TSEAS</option>
+                                <option value="CAFYD">CAFYD</option>
+                                <option value="Otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label text-secondary small text-uppercase">Experiencia Previa</label>
+                            <input type="text" name="experiencia" class="form-control bg-dark border-secondary text-white py-3 rounded-0" placeholder="Describe tu experiencia como trainer">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label text-secondary small text-uppercase">Cuentanos algo sobre ti</label>
+                            <textarea name="sobre_ti" class="form-control bg-dark border-secondary text-white py-3 rounded-0" rows="4" placeholder="Cuéntanos quién eres y por qué quieres unirte a IBF Trainers"></textarea>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <button type="submit" class="btn btn-premium w-50">Enviar Solicitud</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
