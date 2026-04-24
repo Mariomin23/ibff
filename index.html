@@ -6,280 +6,91 @@
     <title>IBF Trainers | Boutique Personal Training Elite</title>
     <meta name="description" content="Entrenamiento personal boutique de élite en Madrid. IBF Trainers ofrece planes personalizados de musculación, nutrición y post-parto. Entrenadores expertos cerca de ti.">
     <meta name="keywords" content="entrenamiento personal, entrenador personal madrid, ibf trainers, fitness boutique, entrenamiento económico, nutrición deportiva, post parto entrenamiento">
-    
-    <!-- Bootstrap 5.3 CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand brand-font" href="#">IBF <span style="color: white;">TRAINERS</span></a>
+            <a class="navbar-brand brand-font" href="index.html">IBF <span style="color: white;">TRAINERS</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#plantilla">Trainers</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#trabajo">Trabaja con Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/trainers.html">Trainers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/ubicacion.html">Ubicación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/trabajo.html">Trabaja con Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="inicio" class="hero">
-        <div class="container" data-aos="fade-up">
+    <section class="hero">
+        <div class="container">
             <h1 class="brand-font">Transforma Tu Élite</h1>
             <p>Entrenamiento boutique diseñado para quienes buscan resultados extraordinarios y atención personalizada.</p>
-            <a href="#contacto" class="btn btn-premium mt-3">Comienza Ahora</a>
+            <a href="pages/contacto.html" class="btn btn-premium mt-3">Comienza Ahora</a>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="nosotros">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 mb-lg-0">
-                    <h2 class="section-title">¿Quiénes Somos?</h2>
-                    <p class="lead text-primary mb-4" id="about-subtitle">Más que un entrenamiento, una estrategia de vida.</p>
-                    <p class="text-secondary" id="about-content">En IBF Trainers no creemos en rutinas genéricas. Somos una empresa boutique dedicada a transformar vidas a través del entrenamiento personalizado, la nutrición estratégica y el acompañamiento constante. Nacimos con la misión de elevar el estándar del fitness convencional. Entrenar con nosotros es contar con un profesional que te escucha, entiende tus objetivos y adapta cada fase a tu ritmo.</p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="row g-4" id="services-grid">
-                        <div class="col-6">
-                            <div class="info-block h-100 p-3 p-md-4">
-                                <i class="bi bi-arrows-fullscreen"></i>
-                                <h4 class="brand-font h5">Fullbody</h4>
-                                <p class="small text-secondary mb-0 d-none d-md-block">Entrenamiento integral para optimizar tiempo y resultados.</p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="info-block h-100 p-3 p-md-4">
-                                <i class="bi bi-database"></i>
-                                <h4 class="brand-font h5">Musculación</h4>
-                                <p class="small text-secondary mb-0 d-none d-md-block">Hipertrofia y fuerza con técnica de élite.</p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="info-block h-100 p-3 p-md-4">
-                                <i class="bi bi-person-walking"></i>
-                                <h4 class="brand-font h5">Tren Inferior</h4>
-                                <p class="small text-secondary mb-0 d-none d-md-block">Especialización en potencia y estética de piernas y glúteos.</p>
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="info-block h-100 p-3 p-md-4">
-                                <i class="bi bi-heart-pulse"></i>
-                                <h4 class="brand-font h5">Post Parto</h4>
-                                <p class="small text-secondary mb-0 d-none d-md-block">Recuperación segura y efectiva supervisada por expertos.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Trainers Section -->
-    <section id="plantilla" class="bg-dark-grey">
+    <!-- Services Preview -->
+    <section>
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Nuestra Plantilla</h2>
-                <p class="text-secondary">Expertos seleccionados para guiarte en cada paso de tu camino.</p>
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="text-secondary">Especializaciones que transforman vidas</p>
             </div>
-            <div class="row g-4" id="trainers-grid">
-                <!-- Trainer 1 -->
+            <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div class="trainer-card">
-                        <div class="trainer-img-wrapper">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf85mqNMwASJeJDDyNpU4jjd_INH7hUPcIRg&s" alt="Pablo Lasarte" loading="lazy">
-                        </div>
-                        <div class="trainer-info">
-                            <p class="role">CEO & Lead Trainer</p>
-                            <h3 class="brand-font">Pablo Lasarte</h3>
-                            <p class="small specialty mb-3">Musculación & Fullbody</p>
-                            <p class="small text-light">Fundador de IBF Trainers con más de 10 años de experiencia transformando atletas de alto rendimiento.</p>
-                        </div>
+                    <div class="info-block h-100 text-center">
+                        <i class="bi bi-arrows-fullscreen"></i>
+                        <h4 class="brand-font h5">Fullbody</h4>
+                        <p class="small text-secondary mb-0">Entrenamiento integral para optimizar tiempo y resultados.</p>
                     </div>
                 </div>
-                <!-- Trainer 2 -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="trainer-card">
-                        <div class="trainer-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&q=80&w=800" alt="Daniela Tode" loading="lazy">
-                        </div>
-                        <div class="trainer-info">
-                            <p class="role">Nutritionist & Trainer</p>
-                            <h3 class="brand-font">Daniela Tode</h3>
-                            <p class="small specialty mb-3">Nutrición & Wellness</p>
-                            <p class="small text-light">Experta en combinar la ciencia de la nutrición con el entrenamiento físico para resultados duraderos.</p>
-                        </div>
+                    <div class="info-block h-100 text-center">
+                        <i class="bi bi-database"></i>
+                        <h4 class="brand-font h5">Musculación</h4>
+                        <p class="small text-secondary mb-0">Hipertrofia y fuerza con técnica de élite.</p>
                     </div>
                 </div>
-                <!-- Trainer 3 -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="trainer-card">
-                        <div class="trainer-img-wrapper">
-                            <img src="https://res.cloudinary.com/dvjfemxbz/image/upload/c_scale,f_auto,q_60,w_1000/technologische_ontwikkelingen_voor_fitnessondernemers_zoals_virtuele_fitnesslessen_en_high_intensity_interval_training_vvr0la_jptmhg.avif" alt="Marcus Thorne" loading="lazy">
-                        </div>
-                        <div class="trainer-info">
-                            <p class="role">Senior Trainer</p>
-                            <h3 class="brand-font">Marcus Thorne</h3>
-                            <p class="small specialty mb-3">Tren Inferior & Potencia</p>
-                            <p class="small text-light">Especialista en biomecánica aplicada al crecimiento muscular de alta precisión.</p>
-                        </div>
+                    <div class="info-block h-100 text-center">
+                        <i class="bi bi-person-walking"></i>
+                        <h4 class="brand-font h5">Tren Inferior</h4>
+                        <p class="small text-secondary mb-0">Especialización en potencia y estética de piernas y glúteos.</p>
                     </div>
                 </div>
-                <!-- Trainer 4 -->
                 <div class="col-md-6 col-lg-3">
-                    <div class="trainer-card">
-                        <div class="trainer-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1574680088814-c9e8a10d8a4d?auto=format&fit=crop&q=80&w=800" alt="Elena Rodriguez" loading="lazy">
-                        </div>
-                        <div class="trainer-info">
-                            <p class="role">Recovery Expert</p>
-                            <h3 class="brand-font">Elena Rodriguez</h3>
-                            <p class="small specialty mb-3">Post Parto & Movilidad</p>
-                            <p class="small text-light">Apasionada por la salud femenina y la recuperación funcional tras el embarazo.</p>
-                        </div>
+                    <div class="info-block h-100 text-center">
+                        <i class="bi bi-heart-pulse"></i>
+                        <h4 class="brand-font h5">Post Parto</h4>
+                        <p class="small text-secondary mb-0">Recuperación segura y efectiva supervisada por expertos.</p>
                     </div>
                 </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="pages/nosotros.html" class="btn btn-premium">Conoce Más</a>
             </div>
         </div>
     </section>
 
-    <!-- Location Section -->
-    <section id="ubicacion">
-        <div class="container">
-            <h2 class="section-title">¿Dónde Estamos?</h2>
-            <div class="row mt-5">
-                <div class="col-lg-5 mb-4 mb-lg-0">
-                    <div class="info-block h-100">
-                        <i class="bi bi-geo-alt"></i>
-                        <h3>Ubicación Estratégica</h3>
-                        <p id="location-text"></p>
-                        <hr class="border-secondary my-4">
-                        <p class="text-secondary"><i class="bi bi-info-circle me-2"></i> Operamos en los centros Fitness Park y Synergym más destacados de Madrid.</p>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="overflow-hidden rounded shadow-lg" style="height: 400px;">
-                        <!-- Google Maps Embed (Static placeholder for concept) -->
-                        <iframe 
-                            width="100%" 
-                            height="100%" 
-                            frameborder="0" 
-                            scrolling="no" 
-                            marginheight="0" 
-                            marginwidth="0" 
-                            src="https://maps.google.com/maps?q=Madrid,Spain&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy">
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Trabaja con Nosotros Section -->
-    <section id="trabajo">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="section-title">Trabaja con IBF Trainers</h2>
-                    <p class="text-secondary mb-5">¿Eres trainer certificado y quieres formar parte de nuestra plantilla? Envíanos tu información.</p>
-
-                    <form class="row g-3 text-start" action="mailto:hola@tripleeme.es" method="POST" enctype="text/plain">
-                        <div class="col-md-6">
-                            <label class="form-label text-secondary small text-uppercase">Nombre</label>
-                            <input type="text" name="nombre" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label text-secondary small text-uppercase">Apellido</label>
-                            <input type="text" name="apellido" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label text-secondary small text-uppercase">Email</label>
-                            <input type="email" name="email" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label text-secondary small text-uppercase">Teléfono</label>
-                            <input type="tel" name="telefono" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
-                        </div>
-                        <div class="col-12">
-                            <label class="form-label text-secondary small text-uppercase">Formación</label>
-                            <select name="formacion" class="form-select bg-dark border-secondary text-white py-3 rounded-0">
-                                <option value="TAFAD">TAFAD</option>
-                                <option value="TSEAS">TSEAS</option>
-                                <option value="CAFYD">CAFYD</option>
-                                <option value="Otros">Otros</option>
-                            </select>
-                        </div>
-                        <div class="col-12">
-                            <label class="form-label text-secondary small text-uppercase">Experiencia Previa</label>
-                            <input type="text" name="experiencia" class="form-control bg-dark border-secondary text-white py-3 rounded-0" placeholder="Describe tu experiencia como trainer">
-                        </div>
-                        <div class="col-12">
-                            <label class="form-label text-secondary small text-uppercase">Cuentanos algo sobre ti</label>
-                            <textarea name="sobre_ti" class="form-control bg-dark border-secondary text-white py-3 rounded-0" rows="4" placeholder="Cuéntanos quién eres y por qué quieres unirte a IBF Trainers"></textarea>
-                        </div>
-                        <div class="col-12 text-center mt-4">
-                            <button type="submit" class="btn btn-premium w-50">Enviar Solicitud</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contacto" class="bg-dark-grey">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="section-title">Contacto de Élite</h2>
-                    <p class="text-secondary mb-5">Déjanos tus datos y un trainer se pondrá en contacto contigo en menos de 24h.</p>
-                    
-                    <form class="row g-3 text-start" action="mailto:hola@tripleeme.es" method="POST" enctype="text/plain">
-                        <div class="col-md-6">
-                            <label class="form-label text-secondary small text-uppercase">Nombre Completo</label>
-                            <input type="text" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
-                        </div>
-                        <div class="col-md-6">
-                            <label class="form-label text-secondary small text-uppercase">Email</label>
-                            <input type="email" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
-                        </div>
-                        <div class="col-12">
-                            <label class="form-label text-secondary small text-uppercase">¿Qué objetivo tienes?</label>
-                            <select class="form-select bg-dark border-secondary text-white py-3 rounded-0">
-                                <option>Aumento de masa muscular</option>
-                                <option>Pérdida de grasa</option>
-                                <option>Recuperación Post-Parto</option>
-                                <option>Entrenamiento Funcional</option>
-                            </select>
-                        </div>
-                        <div class="col-12">
-                            <label class="form-label text-secondary small text-uppercase">Mensaje</label>
-                            <textarea class="form-control bg-dark border-secondary text-white py-3 rounded-0" rows="4"></textarea>
-                        </div>
-                        <div class="col-12 text-center mt-4">
-                            <button type="submit" class="btn btn-premium w-50">Enviar Solicitud</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+    <!-- CTA Section -->
+    <section class="bg-dark-grey">
+        <div class="container text-center">
+            <h2 class="section-title">¿Listo para transformar tu vida?</h2>
+            <p class="text-secondary mb-4">Nuestros trainers certificados están listos para guiarte en cada paso del camino.</p>
+            <a href="pages/contacto.html" class="btn btn-premium">Solicita tu primera sesión</a>
         </div>
     </section>
 
@@ -297,12 +108,11 @@
     </footer>
 
     <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/34614250687" class="wa-float" id="wa-btn" target="_blank">
+    <a href="https://wa.me/34614250687" class="wa-float" target="_blank">
         <i class="bi bi-whatsapp"></i>
     </a>
 
-    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="scripts/app.js"></script>
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>

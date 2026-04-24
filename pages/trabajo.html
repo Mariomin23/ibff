@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con Nosotros | IBF Trainers</title>
+    <meta name="description" content="Únete a IBF Trainers. Buscamos trainers certificados en Madrid. Envía tu solicitud y forma parte de nuestro equipo.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand brand-font" href="../index.html">IBF <span style="color: white;">TRAINERS</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="trainers.html">Trainers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ubicacion.html">Ubicación</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="trabajo.html">Trabaja con Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="brand-font">Trabaja con Nosotros</h1>
+            <p class="text-secondary">¿Eres trainer certificado y quieres formar parte de nuestra plantilla?</p>
+        </div>
+    </section>
+
+    <!-- Work With Us Form -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <p class="text-secondary">En IBF Trainers buscamos profesionales apasionados por el entrenamiento personalizado. Si crees que encajas en nuestro equipo, envíanos tu información.</p>
+                    </div>
+
+                    <form class="row g-3 text-start" action="mailto:hola@tripleeme.es" method="POST" enctype="text/plain">
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small text-uppercase">Nombre</label>
+                            <input type="text" name="nombre" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small text-uppercase">Apellido</label>
+                            <input type="text" name="apellido" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small text-uppercase">Email</label>
+                            <input type="email" name="email" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label text-secondary small text-uppercase">Teléfono</label>
+                            <input type="tel" name="telefono" class="form-control bg-dark border-secondary text-white py-3 rounded-0" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label text-secondary small text-uppercase">Formación</label>
+                            <select name="formacion" class="form-select bg-dark border-secondary text-white py-3 rounded-0">
+                                <option value="TAFAD">TAFAD</option>
+                                <option value="TSEAS">TSEAS</option>
+                                <option value="CAFYD">CAFYD</option>
+                                <option value="Otros">Otros</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label text-secondary small text-uppercase">Experiencia Previa</label>
+                            <input type="text" name="experiencia" class="form-control bg-dark border-secondary text-white py-3 rounded-0" placeholder="Describe tu experiencia como trainer">
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label text-secondary small text-uppercase">Cuentanos algo sobre ti</label>
+                            <textarea name="sobre_ti" class="form-control bg-dark border-secondary text-white py-3 rounded-0" rows="4" placeholder="Cuéntanos quién eres y por qué quieres unirte a IBF Trainers"></textarea>
+                        </div>
+                        <div class="col-12 text-center mt-4">
+                            <button type="submit" class="btn btn-premium w-50">Enviar Solicitud</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 border-top border-secondary">
+        <div class="container text-center">
+            <h3 class="brand-font mb-4">IBF TRAINERS</h3>
+            <div class="social-links mb-4">
+                <a href="#" class="text-white mx-3 fs-4"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white mx-3 fs-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white mx-3 fs-4"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p class="small text-secondary mb-0">&copy; 2026 IBF Trainers. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/34614250687" class="wa-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
